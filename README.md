@@ -38,4 +38,20 @@ Now that you have Git installed and a Github account, we can start using Git and
 
 ## Basic Git Commands:
 
+1. **git init**: Initializes a new Git repository.
+2. **git add .**: Adds all the files in the directory to git.
+3. **git commit -m "message"**: saves the changes made in Git.
+4. **git push**: uploads the changes to the remote repository like Github.
+5. **git pull**: downloads the changes from the remote repository to your local machine.
+6. **git clone**: brings a repository from github to your local machine.
+
+## Creating a new repository on Github:
+
+1. Go to [Github](https://github.com/) and login.
+2. Click on the `+` icon on the top right corner and select `New repository`.
+3. Give your repository a name and click on `Create repository`.
+4. Now you can add your code to the repository.
+
+
+
 
