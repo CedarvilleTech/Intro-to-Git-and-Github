@@ -122,6 +122,12 @@ Now that you have Git installed and a Github account, we can start using Git and
 
 1. In terminal type `git branch -d <branchname>` to delete the branch.
 
+## Ignore files in git:
+
+1. Create a file called `.gitignore` in the root directory.
+2. Add the files or directories you want to ignore in the `.gitignore` file.
+3. You can use wildcards like `*.txt` to ignore all `.txt` files.
+
 ## Undo changes in git:
 
 1. In terminal type `git reset` to unstage a file.
