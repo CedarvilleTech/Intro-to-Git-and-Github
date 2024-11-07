@@ -53,5 +53,64 @@ Now that you have Git installed and a Github account, we can start using Git and
 4. Now you can add your code to the repository.
 
 
+## Create a file in your repository:
+
+1. Go to your repository on Github.
+2. Click on `Add file` and select `Create new file`.
+3. Give your file a name and add some code.
+4. Click on `Commit changes` to save your file.
+
+## Clone a repository:
+
+1. Go to the repository on Github.
+2. Click on the `Code` button and copy the URL.
+3. Open your terminal and type `git clone <URL>`.
+4. Now you have the repository on your local machine.
+5. Whenever you clone you are on the main branch.
+
+## Checking if the git folder is there:
+
+1. In terminal type `ls -a` to see all the files in the directory.
+2. You should see a `.git` folder if you have initialized a git repository.
+
+## Checking the status of the git repository:
+
+1. In terminal type `git status`.
+2. You will see the files that are staged, unstaged, and untracked.
+
+## Adding files to git:
+
+1. In terminal type `git add .` to add all the files to git.
+2. In terminal type `git add <filename>` to add a specific file to git.
+
+## Committing changes to git:
+
+1. In terminal type `git commit -m "message"` to save the changes made in git.
+2. The message should be a short description of the changes made.
+
+## Pushing changes to Github:
+
+1. To avoid entering the password each time, sign in vs code with your github account.
+2. In terminal type `git push origin main` to upload the changes to the remote repository like Github.
+3. If you are on a different branch, replace `main` with the branch name.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
